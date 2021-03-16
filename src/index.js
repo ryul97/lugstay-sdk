@@ -19,6 +19,6 @@ class LugStay {
   }
 }
 
-(function(){
+(function(window){
   window.LugStay = new LugStay();
-})();
+})(window);
